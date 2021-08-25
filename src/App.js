@@ -5,18 +5,22 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <img src="https://i.ibb.co/VmrPt4F/Matt-Profile-Img.jpg" className="App-logo" alt="logo" />
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.instagram.com/matt.morri/?hl=en-gb"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Matt Morrison
         </a>
+        <p>Creator of <a
+          className="Teamsheet-link"
+          href="https://teamsheet.net/home"
+          target="_blank"
+          rel="noopener noreferrer"
+        ><img src="https://i.ibb.co/qYrB0Jx/Team-Sheet-Logo-White.png" className="Teamsheet-logo" alt="logo" />
+        </a></p>
       </header>
     </div>
   );

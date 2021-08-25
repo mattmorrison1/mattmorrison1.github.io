@@ -7,6 +7,12 @@
   pointer-events: none;
 }
 
+.Teamsheet-logo {
+  height: 7vmin;
+  pointer-events: none;
+  margin-top: 5px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -27,6 +33,11 @@
 .App-link {
   color: #61dafb;
 }
+
+.Teamsheet-link {
+  color: #ffffff;
+}
+
 
 @keyframes App-logo-spin {
   from {
